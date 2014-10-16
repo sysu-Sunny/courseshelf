@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Satellite,"微软雅黑";
+}
+
+body {
+	background-color: rgb(242, 242, 242);
+}
+
+.logo {
+	background-color: rgb(46,220,134);
+	height: 110px;
+	width: 100%;
+	color: rgb(255,255,255);
+	font-size: 20px;
+	font-family: Satellite;
+}
+
+.logo h1 {
+    margin-left: 8%;
+    position: absolute;
+    margin-top: 12px;
+}
+.left {
+	float:right;
+	font-size:18px;
+	color:white;
+	margin: 45px 88px 18px 26px;
+}
+
+.reg {
+	margin-right: 20px;
+}
+.left a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.contain {
+	width: 960px;
+	height: 1300px;
+	margin: 0 auto;
+}
+
+.head {
+	background-color: white;
+	font-family: "微软雅黑"；
+}
+.home, .course, .add-course{
+	width: 130px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 15px;
+}
+.home, .course {
+	border-right: dashed 1px #ddd;
+	 border-collapse: collapse;
+}
+
+#search {
+	float: right;
+	margin-top: 17px;
+	margin-right: 10px;
+
+}
+.clear {
+	clear:both;
+}
+
+input:focus {  
+            outline: 0;  
+}  
+.button {  
+          
+}  
+
+.text {
+	width:140px;
+	height: 25px;
+	
+
+}
+.text:focus {  
+            background-color: #FCFCFC;  
+            -webkit-box-shadow: 2px 2px 3px #D2D2D2 inset;  
+            -moz-box-shadow: 2px 2px 3px #D2D2D2 inset;  
+            box-shadow: 2px 2px 3px #D2D2D2 inset;  
+}  
+
+.searchAction {
+	display: block;
+	margin-top: 5px;
+	margin-left: -5px;
+	background-color: rgb(242, 242, 242);
+}
+
+.text {
+     display: block;
+     margin-right: -5px;
+     float:left;
+     background-color: rgb(242, 242, 242);
+     border: white;
+}
+
+.head a {
+	text-decoration: none;
+	color: black;
+}
+
+.hotCourse {
+	margin-top:30px;
+	width: 580px;
+	background-color: white;
+	height: 30px;
+	
+}
+ h3 {
+	font-size: 25px;
+	padding-top: 10px;
+	margin-left: 13px;
+}
+
+.top1,.top2,.top3,.bo1,.bo2,.bo3{
+	width:170px;
+	height: 140px;
+	background-color:rgb(200,240,200);
+	float:left;
+	margin: 10px;
+}
+.hot-course-top, .hot-course-bo {
+	margin-left: 5px;
+}
+
+p {
+	margin: 10px;
+	font-size: 15px;
+	font-family: serif;
+	line-height: 120%;
+	color: rgb(90,90,90);
+}
+h4 {
+	margin: 10px;
+	padding-top: 10px;
+	font-family: 20px;
+	font-family: sans-serif;
+	color: rgb(90,90,90);
+}
+
+.hotComment {
+	background-color: white;
+	height: 470px;
+	width: 580px;
+	margin-top: 20px;
+	float:left;
+	
+}
+.comment {
+	background-color: rgb(242, 242, 242);
+	height: 115px;
+	width: 545px;
+	margin: 20px;
+}
+
+.new-commented-course {
+	height: 850px;
+	margin: 20px;
+	width: 340px;
+	float:right;
+	background-color: white;
+}
+
+.clear-left {
+	clear: both;
+}
+
+h3 {
+	color:rgb(46,220,134);
+	margin-top: 15px;
+}
+
+
+.new-box {
+	background-color:rgb(200,240,200);
+            height: 100px;
+            width:310px;
+            margin: 15px;
+} 
+
+.foot {
+	background-color: rgb(46,220,134);
+	width: 100%;
+	height: 25px;
+	padding: 5%;
+	padding-left: 35%;
+}
+.foot a {
+	text-decoration: none;
+	color:white;
+	text-align: center;
+	margin-left: 30px;
+}
+
+a.reg:hover,a.log:hover {
+	color:rgb(200,240,200);
+}
+.home:hover,.course:hover,.add-course:hover {
+	background-color: rgb(200,240,200);
+}

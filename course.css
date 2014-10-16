@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Satellite,"微软雅黑";
+}
+
+body {
+	background-color: rgb(242, 242, 242);
+}
+
+.logo {
+	background-color: rgb(46,220,134);
+	height: 110px;
+	width: 100%;
+	color: rgb(255,255,255);
+	font-size: 20px;
+	font-family: Satellite;
+}
+
+.logo h1 {
+    margin-left: 8%;
+    position: absolute;
+    margin-top: 12px;
+}
+.left {
+	float:right;
+	font-size:18px;
+	color:white;
+	margin: 45px 88px 18px 26px;
+}
+
+.reg {
+	margin-right: 20px;
+}
+.left a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.contain {
+	width: 960px;
+	height: 1300px;
+	margin: 0 auto;
+}
+
+.head {
+	background-color: white;
+	font-family: "微软雅黑"；
+}
+.home, .course, .add-course{
+	width: 130px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 15px;
+}
+.home, .course {
+	border-right: dashed 1px #ddd;
+	 border-collapse: collapse;
+}
+
+#search {
+	float: right;
+	margin-top: 17px;
+	margin-right: 10px;
+
+}
+.clear {
+	clear:both;
+}
+
+input:focus {  
+            outline: 0;  
+}  
+.button {  
+          
+}  
+
+.text {
+	width:140px;
+	height: 25px;
+	
+
+}
+.text:focus {  
+            background-color: #FCFCFC;  
+            -webkit-box-shadow: 2px 2px 3px #D2D2D2 inset;  
+            -moz-box-shadow: 2px 2px 3px #D2D2D2 inset;  
+            box-shadow: 2px 2px 3px #D2D2D2 inset;  
+}  
+
+.searchAction {
+	display: block;
+	margin-top: 5px;
+	margin-left: -5px;
+	background-color: rgb(242, 242, 242);
+}
+
+.text {
+     display: block;
+     margin-right: -5px;
+     float:left;
+     background-color: rgb(242, 242, 242);
+     border: white;
+}
+
+.head a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+.foot {
+	background-color: rgb(46,220,134);
+	width: 100%;
+	height: 25px;
+	padding: 5%;
+	padding-left: 35%;
+}
+.foot a {
+	text-decoration: none;
+	color:white;
+	text-align: center;
+	margin-left: 30px;
+}
